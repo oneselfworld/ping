@@ -1,0 +1,210 @@
+.main {
+    margin:10px 0 10px 220px;
+    width: 980px;
+    height: 455px;
+}
+.focus {
+    float: left;
+    width: 721px;
+    height: 455px;
+    background-color: #f5f5f5;
+}
+.newsflash {
+    float: right;
+    width: 250px;
+    height: 455px;
+}
+.news {
+    height: 165px;
+    border: 1px solid #e4e4e4;
+}
+.news_hd {
+    height: 33px;
+    line-height: 33px;
+    padding: 0 15px;
+    border-bottom: 1px dotted #e4e4e4;
+}
+.news_hd h5 {
+    float:left;
+    font-size: 14px;
+}
+.news_hd .more {
+    float: right;
+}
+.news_hd .more::after {
+    content: '\e920';
+    font-family: 'icomoon';
+    margin-left: 5px;
+}
+.news_bd {
+    padding: 5px 15px 0;
+}
+.news_bd ul li {
+    height: 24px;
+    line-height: 24px;
+    /* 文字超出时用省略号代替↓ */
+    overflow: hidden;
+    /* 强制一行显示 */
+    white-space: nowrap;
+    /* 多出来的用省略号代替 */
+    text-overflow: ellipsis;
+}
+.news_bd strong {
+    margin-right: 5px;
+}
+.lifeservice {
+    overflow:hidden;
+    height: 209px;
+    border: 1px solid #e4e4e4;
+    border-top: 0;
+}
+.lifeservice ul {
+    width: 252px;
+}
+.lifeservice ul li {
+    float: left;
+    width: 63px;
+    height: 71px;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    text-align: center;
+}
+.lifeservice ul li i {
+    display: inline-block;
+    width: 24px;
+    height: 28px;
+    margin-top: 12px;
+    background: url(../images/icons.png) no-repeat -16px -15px;
+}
+.lifeservice ul li:nth-of-type(2) i {
+    background: url(../images/icons.png) no-repeat -79px -15px;
+}
+.lifeservice ul li:nth-of-type(3) i {
+    background: url(../images/icons.png) no-repeat -142px -15px;
+}
+.lifeservice ul li:nth-of-type(4) i {
+    background: url(../images/icons.png) no-repeat -206px -15px;
+}
+.lifeservice ul li:nth-of-type(5) i {
+    background: url(../images/icons.png) no-repeat -16px -86px;
+}
+.lifeservice ul li:nth-of-type(6) i {
+    background: url(../images/icons.png) no-repeat -79px -86px;
+}
+.lifeservice ul li:nth-of-type(7) i {
+    background: url(../images/icons.png) no-repeat -142px -86px;
+}
+.lifeservice ul li:nth-of-type(8) i {
+    background: url(../images/icons.png) no-repeat -206px -86px;
+}
+.lifeservice ul li:nth-of-type(9) i {
+    background: url(../images/icons.png) no-repeat -16px -158px;
+}
+.lifeservice ul li:nth-of-type(10) i {
+    background: url(../images/icons.png) no-repeat -79px -158px;
+}
+.lifeservice ul li:nth-of-type(11) i {
+    background: url(../images/icons.png) no-repeat -142px -158px;
+}
+.lifeservice ul li:nth-of-type(12) i {
+    background: url(../images/icons.png) no-repeat -206px -158px;
+}
+.bargain {
+    margin-top: 6px;
+}
+.recom {
+    height: 163px;
+    margin-top: 12px;
+    background-color: #ebebeb;
+}
+.recom_hd {
+    float: left;
+    height: 163px;
+    width: 205px;
+    background-color: #5c5251;
+    text-align: center;
+    padding-top: 30px;
+}
+.recom_bd {
+    float: left;
+}
+.recom_bd ul li {
+    position: relative;
+    float: left;
+}
+.recom_bd ul li img {
+    width: 248px;
+    height: 163px;
+}
+.recom_bd ul li:nth-child(-n+3)::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 10px;
+    width: 1px;
+    height: 145px;
+    background-color: #ddd;
+}
+.box_hd {
+    height: 30px;
+    border-bottom: 2px solid #c81623;
+}
+.box_hd h3 {
+    float: left;
+    font-size: 18px;
+    color: #c81623;
+    font-weight: 400;
+}
+.tab_list {
+    float: right;
+    line-height: 30px;
+}
+.tab_list ul li {
+    float: left;
+}
+.tab_list ul li a {
+    padding: 0 15px;
+}
+.floor .w {
+    margin-top: 30px;
+}
+.box_bd {
+    height: 361px;
+    
+}
+.tab_list_item>div {
+    float: left;
+}
+.col_210 {
+    width: 210px;
+    background-color: #f9f9f9;
+    height: 361px;
+    text-align: center;
+}
+.col_210 ul {
+    padding-left: 12px;
+}
+.col_210 ul li {
+    float: left;
+    width: 85px;
+    height: 34px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    line-height: 33px;
+    margin-right: 10px;
+}
+.col_329 {
+    width: 329px;
+}
+.col_221 {
+    width: 221px;
+    border-right: 1px solid #ccc;
+}
+.col_219 {
+    width: 219px;
+}
+.bb {
+    /* a要包含其他有宽度的元素时记得要转换成块级元素 */
+    display: block;
+    border-bottom: 1px solid #ccc;
+}

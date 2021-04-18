@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+          padding: 0;
+          margin: 0;
+          /* box-sizing: border-box;   */
+        }
+        ul>li {
+            list-style: none;
+            padding: 20px 30px;
+            font-size: 20px;
+           
+            font-weight: 700;
+        }
+        a {
+            text-decoration: none;
+            color: seashell;
+        }
+        body {
+            background:url(./images/index.png);
+            background-size: cover;
+        }
+        .box {
+            width: 1200px;
+            height: 100%;
+            margin: 0 auto;
+            
+            text-align: center;
+        }
+        .box p:first-child {
+            width: 200px;
+            height: 50px;
+            line-height: 50px;
+            font-size: 18px;
+            font-weight: 700;
+            margin: 5px auto;
+            background: rgba(0, 0, 0, .1);
+            border-radius: 20px;
+        }
+        .left,
+        .center,
+        .right {
+            float: left;
+            width: 32%;
+            height: 600px;
+            /* background-color: #f5f5f5; */
+            border-radius: 50px;
+            background: rgba(0, 0, 0, .1);
+        }
+        .center {
+            margin: 0 2%;
+        }
+        ul li:nth-child(n+2) {
+           width: 300px;
+           height: 30px;
+           margin: 15px auto;
+           
+        }
+        .box ul li a:hover {
+            color: #e4e4e4;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <p>作品小集</p>
+        <div class="left">
+            <ul>
+                <li>html/css</li>
+                <li><a href="http://www.uponeself.top/shoping/index.html">品优购商城主页案例</a></li>
+                <li><a href="http://www.uponeself.top/shoping/list.html">品优购秒杀页</a></li>        
+                <li><a href="http://www.uponeself.top/shoping/register.html">品优购登录页面</a></li>        
+            </ul>
+        </div>
+        <div class="center">
+            <ul>
+                <li>javascript</li>
+                <li><a href="http://www.uponeself.top/settime/index.html">获取时间小案例</a></li>
+                <li><a href="http://www.uponeself.top/query/query.html">银行查询客户电话</a></li>
+                <li><a href="#">XXX页面小案例</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <ul>
+                <li>vue</li>
+                <li><a href="http://www.uponeself.top/vue/runup.html">跑马灯小案例</a></li>
+                <li><a href="http://www.uponeself.top/vue/pictureChange.html">图片切换</a></li>
+                <li><a href="#">XXX页面小案例</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
